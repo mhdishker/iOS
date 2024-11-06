@@ -11,6 +11,7 @@ struct ContentView: View {
     
     @State private var isAlertVisible: Bool = false
     @State private var sliderValue: Double = 50
+    @State private var game: Game = Game()
     var body: some View {
         VStack {
             Text("🎯🎯🎯\nPUT THE BULLSEYE AS CLOSE AS YOU CAN TO")
@@ -19,7 +20,7 @@ struct ContentView: View {
                 .font(.footnote)
                 .kerning(2.0)
                 .bold()
-            Text(String(Int(sliderValue.rounded())))
+            Text(String(game.target))
                 .font(.largeTitle)
                 .kerning(-1.0)
                 .fontWeight(.black)
@@ -40,7 +41,11 @@ struct ContentView: View {
                         print("Alret is closed")
                     }
                 },
-                message: { Text ("something is happening") }
+                message: { Text ("""
+your target is \(game.target)
+your guess is \(Int(sliderValue.rounded()))
+you collected \(game.points(sliderValue: Int(sliderValue.rounded()))) points this round
+""") }
             )
         }
         .padding()
