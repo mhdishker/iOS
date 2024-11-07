@@ -9,9 +9,9 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State private var isAlertVisible: Bool = false
-    @State private var sliderValue: Double = 50
-    @State private var game: Game = Game()
+    @State private var isAlertVisible = false
+    @State private var sliderValue = 50.0
+    @State private var game = Game()
     var body: some View {
         VStack {
             Text("🎯🎯🎯\nPUT THE BULLSEYE AS CLOSE AS YOU CAN TO")
