@@ -22,5 +22,23 @@ final class Swift_UI_AppTests: XCTestCase {
     func testExample() throws {
         XCTAssertEqual(game.points(sliderValue: 50), 999)
     }
+    
+    func testScoreWithPositiveDifference() throws {
+        var guess: Int = game.target + 5
+        var score: Int = game.points(sliderValue: guess)
+        XCTAssertEqual(score, 95) // 100 - difference between guess and score
+    }
+    
+    func testScoreWithPositiveDifference() throws {
+        var guess: Int = game.target + 5
+        var score: Int = game.points(sliderValue: guess)
+        XCTAssertEqual(score, 95) // 100 - difference between guess and score
+    }
+    
+    func testScoreWithNigativeDifference() throws {
+        var guess: Int = game.target - 5
+        var score: Int = game.points(sliderValue: guess)
+        XCTAssertEqual(score, 95) // 100 - difference between guess and score
+    }
 
 }
