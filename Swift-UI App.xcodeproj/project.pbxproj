@@ -15,6 +15,10 @@
 		200632062B9B62CC00F6C668 /* Swift_UI_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200632052B9B62CC00F6C668 /* Swift_UI_AppUITests.swift */; };
 		200632082B9B62CC00F6C668 /* Swift_UI_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200632072B9B62CC00F6C668 /* Swift_UI_AppUITestsLaunchTests.swift */; };
 		206CB6AD2CDB5378002B1153 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206CB6AC2CDB5378002B1153 /* Game.swift */; };
+		206CB6AF2CDE1D3A002B1153 /* TextViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206CB6AE2CDE1D3A002B1153 /* TextViews.swift */; };
+		206CB6B12CDE1FC5002B1153 /* SubmitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206CB6B02CDE1FC5002B1153 /* SubmitButton.swift */; };
+		206CB6B32CDE20FA002B1153 /* CustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206CB6B22CDE20FA002B1153 /* CustomSlider.swift */; };
+		206CB6B52CDE2899002B1153 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206CB6B42CDE2899002B1153 /* AlertView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +50,10 @@
 		200632052B9B62CC00F6C668 /* Swift_UI_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_UI_AppUITests.swift; sourceTree = "<group>"; };
 		200632072B9B62CC00F6C668 /* Swift_UI_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_UI_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		206CB6AC2CDB5378002B1153 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		206CB6AE2CDE1D3A002B1153 /* TextViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViews.swift; sourceTree = "<group>"; };
+		206CB6B02CDE1FC5002B1153 /* SubmitButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitButton.swift; sourceTree = "<group>"; };
+		206CB6B22CDE20FA002B1153 /* CustomSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSlider.swift; sourceTree = "<group>"; };
+		206CB6B42CDE2899002B1153 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +149,10 @@
 			isa = PBXGroup;
 			children = (
 				200631EC2B9B62C600F6C668 /* ContentView.swift */,
+				206CB6AE2CDE1D3A002B1153 /* TextViews.swift */,
+				206CB6B02CDE1FC5002B1153 /* SubmitButton.swift */,
+				206CB6B22CDE20FA002B1153 /* CustomSlider.swift */,
+				206CB6B42CDE2899002B1153 /* AlertView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -285,8 +297,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				200631ED2B9B62C600F6C668 /* ContentView.swift in Sources */,
+				206CB6B32CDE20FA002B1153 /* CustomSlider.swift in Sources */,
+				206CB6B52CDE2899002B1153 /* AlertView.swift in Sources */,
+				206CB6AF2CDE1D3A002B1153 /* TextViews.swift in Sources */,
 				206CB6AD2CDB5378002B1153 /* Game.swift in Sources */,
 				200631EB2B9B62C600F6C668 /* Swift_UI_AppApp.swift in Sources */,
+				206CB6B12CDE1FC5002B1153 /* SubmitButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
