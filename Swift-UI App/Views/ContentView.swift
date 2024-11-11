@@ -14,7 +14,7 @@ struct ContentView: View {
     @State private var game = Game()
     var body: some View {
         ZStack {
-            Color("BackgroundColor").ignoresSafeArea()
+            BackgroundView(game: $game)
             VStack {
                 InstructionText(text: "🎯🎯🎯\nPut the bullseye as close as you can to")
                 BigNumberText(number: game.target)

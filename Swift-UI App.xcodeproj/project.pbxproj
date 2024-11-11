@@ -20,6 +20,7 @@
 		206CB6B32CDE20FA002B1153 /* CustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206CB6B22CDE20FA002B1153 /* CustomSlider.swift */; };
 		206CB6B52CDE2899002B1153 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206CB6B42CDE2899002B1153 /* AlertView.swift */; };
 		20D2613D2CE5B6BF0029DFED /* RoundedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D2613C2CE5B6BF0029DFED /* RoundedViews.swift */; };
+		20D2613F2CE5CA100029DFED /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D2613E2CE5CA100029DFED /* BackgroundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		206CB6B22CDE20FA002B1153 /* CustomSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSlider.swift; sourceTree = "<group>"; };
 		206CB6B42CDE2899002B1153 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 		20D2613C2CE5B6BF0029DFED /* RoundedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedViews.swift; sourceTree = "<group>"; };
+		20D2613E2CE5CA100029DFED /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +158,7 @@
 				206CB6B22CDE20FA002B1153 /* CustomSlider.swift */,
 				206CB6B42CDE2899002B1153 /* AlertView.swift */,
 				20D2613C2CE5B6BF0029DFED /* RoundedViews.swift */,
+				20D2613E2CE5CA100029DFED /* BackgroundView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -299,6 +302,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20D2613F2CE5CA100029DFED /* BackgroundView.swift in Sources */,
 				200631ED2B9B62C600F6C668 /* ContentView.swift in Sources */,
 				206CB6B32CDE20FA002B1153 /* CustomSlider.swift in Sources */,
 				206CB6B52CDE2899002B1153 /* AlertView.swift in Sources */,
